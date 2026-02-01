@@ -46,3 +46,4 @@ Here in the first lab we though about the basics on how to run the OPENLANE what
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(30).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(31).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day2/Screenshot%20(33).png)
+- So, from the above lab we have got to know where the lef files would be present and where the different pdks would be present and where the information of our synthesis not only synthesis but what ever we run would be stored in our given openlane.
