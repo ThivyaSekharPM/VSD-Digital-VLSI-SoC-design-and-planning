@@ -1,165 +1,180 @@
-# Theory
+#Theory
 
-## 1. Introduction to Maze Routing and Lee’s Algorithm
+#1. Overview of Maze Routing and Lee’s Algorithm
 
-Routing is the process of determining the most efficient physical connection between two points in an integrated circuit, such as between clocks, flip-flops, or other standard cells.
+Routing refers to the process of creating the most efficient physical connections between components in an integrated circuit, such as clocks, flip-flops, and standard cells.
 
-Several algorithms have been developed for routing, including:
+Several routing techniques are commonly used, including:
 
-- Steiner Tree Algorithm  
-- Line Search Algorithm  
-- Lee’s Maze Routing Algorithm (focus of this section)
+- Steiner Tree Algorithm
 
-The main objectives of routing are to:
+- Line Search Algorithm
 
-- Identify the shortest, most efficient path  
-- Minimize bends or zig-zags in the route  
-- Follow Manhattan-style geometry (only vertical and horizontal lines)
+- Lee’s Maze Routing Algorithm (primary focus here)
 
-In software terms, routing involves algorithmically finding a path between two or more points. In the physical design domain, it translates to placing metal wires on silicon to ensure correct signal transmission.
+The key goals of routing are to:
 
-Lee’s Algorithm is particularly effective for grid-based routing problems, such as those encountered in VLSI physical design.
+Determine the shortest possible connection path
 
----
+Reduce unnecessary bends and detours
 
-## 2. Lee’s Algorithm: Methodology
+Adhere to Manhattan routing style, allowing only horizontal and vertical paths
 
-Lee’s Algorithm operates on a grid (or routing matrix) that represents the routing area. It systematically explores all paths from a source to a target node, ensuring the shortest path is identified.
+From a software perspective, routing involves computing an optimal path between points. In VLSI physical design, this translates into laying out metal interconnects on silicon to ensure reliable signal transmission. Lee’s Algorithm is especially suitable for grid-based routing scenarios commonly found in chip design.
 
-### Step 1: Initialization
+#2. Working Principle of Lee’s Algorithm
 
-A grid is constructed and each cell is categorized as follows:
+Lee’s Algorithm operates on a grid-based representation of the routing area. It systematically explores all valid paths between a source and a destination to guarantee identification of the shortest route.
 
-- Obstacle: Blocked regions such as macros or reserved spaces  
-- Empty: Free routing space  
-- Source: Starting point for the path  
-- Target: Destination point
+#Step 1: Grid Setup
 
-### Step 2: Wave Expansion
+The routing grid is initialized with the following cell types:
 
-The algorithm starts at the source and expands outward in all four cardinal directions (up, down, left, right). Each step increments a cost value from the previous cell. This process continues until the target is reached or no further expansion is possible.
+- Obstacles: Blocked regions such as macros or reserved areas
 
-### Step 3: Backtracking
+- Empty Cells: Available routing spaces
 
-Once the target is reached, the algorithm backtracks from the target to the source by following decreasing cost values. This path represents the shortest route.
+- Source: Starting point of the connection
 
-Key constraints:
+- Target: Endpoint of the route
 
-- Only horizontal and vertical movements are allowed (Manhattan geometry)  
-- Obstacles must be avoided  
-- No diagonal paths or overlaps with blocked areas are permitted
+#Step 2: Wave Propagation
 
----
+Starting from the source, the algorithm expands in all four cardinal directions—up, down, left, and right. Each expansion step increases the cost value, and this wave continues until the target is reached or no further expansion is possible.
 
-## 3. Design Rule Check (DRC)
+#Step 3: Path Backtracking
 
-Routing must adhere to fabrication constraints defined by the foundry. These are known as Design Rules.
+Once the target is encountered, the algorithm traces back to the source by following cells with decreasing cost values, forming the shortest valid path.
 
-### Common DRC Constraints:
+Important constraints include:
 
-- Minimum wire width  
-- Minimum spacing between adjacent wires  
-- Minimum pitch (distance between similar routing layers)  
-- Legal via usage between metal layers  
+- Only vertical and horizontal movements are permitted
 
-### Purpose of DRC:
+- Blocked regions must be avoided
 
-- Ensure manufacturability of the chip  
-- Prevent short circuits and electrical failures  
-- Verify signal integrity and reliability
+- Diagonal paths and overlaps are not allowed
 
-DRC violations must be cleaned post-routing to make the layout production-ready.
+#3. Design Rule Checking (DRC)
 
----
+All routing must comply with fabrication rules defined by the foundry, collectively known as Design Rules.
 
-## 4. Signal Shorts and Layer Switching
+Typical DRC Requirements:
 
-A frequent issue in routing is signal shorting, which can lead to:
+- Minimum allowable wire width
 
-- Functional failures  
-- Timing violations (setup or hold failures)
+- Minimum spacing between adjacent wires
 
-### Resolution:
+- Minimum pitch between routing tracks
 
-Routes may be shifted to higher metal layers to avoid congestion or conflicts. This requires the insertion of vias. These vias must also adhere to:
+Proper via dimensions and spacing between layers
 
-- Minimum via width  
-- Minimum via spacing  
-- Routing direction constraints based on the metal layer (e.g., M1: vertical, M2: horizontal)
+Purpose of DRC:
 
-Higher layers may demand wider wires, increasing design complexity but helping resolve routing congestion.
+- Ensure the design can be manufactured correctly
 
----
+- Prevent shorts and electrical faults
 
-## 5. Routing Phases in VLSI Design
+- Maintain signal integrity and reliability
 
-Routing is typically divided into two major phases:
+Any DRC violations identified after routing must be resolved before the design can proceed to fabrication.
 
-### Global Routing
+#4. Signal Shorting and Metal Layer Transitions
 
-- Also referred to as "Fast Routing"  
-- Divides the routing area into larger tiles or grids  
-- Establishes a preliminary routing plan, identifying routing channels between components  
+Signal shorts are a common routing issue and can cause:
 
-### Detailed Routing
+- Functional malfunctions
 
-- Performs fine-grain routing at the track level  
-- Finalizes all connections  
-- Ensures compliance with DRC and design constraints  
+- Timing problems such as setup or hold violations
 
-Global routing sets up the routing plan, while detailed routing ensures its correctness and manufacturability.
+Mitigation Approach:
 
----
+- To resolve congestion or conflicts, routes may be moved to higher metal layers using vias. These vias must also follow strict design rules, including:
 
-## 6. TritonRoute: Overview and Features
+- Minimum via width
 
-TritonRoute is an open-source detailed routing engine used within the OpenROAD flow, typically invoked via the `run_routing` command.
+- Minimum via spacing
 
-### Key Features:
+- Preferred routing directions for each metal layer (e.g., M1 vertical, M2 horizontal)
 
-1. **Route Guide Awareness**  
-   - Honors pre-defined routing guides from earlier stages  
-   - Follows preferred routing directions (e.g., M1: vertical, M2: horizontal)  
-   - Splits and re-aligns non-preferred directions using upper metal layers when needed  
+Higher metal layers often require wider wires, which adds complexity but helps alleviate routing congestion.
 
-2. **Inter-Guide Connectivity**  
-   - Routing area is divided into vertical panels  
-   - Ensures correct and legal routing between panels using bridging and preferred layer guidance  
+5. Stages of Routing in VLSI Design
 
-3. **Layered Routing Strategy**  
-   - Routes even-indexed panels first, then odd-indexed  
-   - Promotes efficient intra- and inter-layer routing  
+Routing is generally carried out in two main stages:
 
----
+Global Routing
 
-## 7. MILP-Based Optimization
+Also known as coarse or fast routing
 
-TritonRoute uses Mixed Integer Linear Programming (MILP) for optimizing routing between Access Point Clusters (APCs).
+Divides the chip into larger routing regions
 
-### Steps:
+Defines an initial routing plan and identifies available routing channels
 
-- Calculate the cost for each potential access point  
-- Construct a Minimum Spanning Tree (MST)  
-- Identify and select the minimum-cost routing paths  
+Detailed Routing
 
-This ensures optimal wire usage and connectivity, reducing routing congestion.
+Performs precise routing at the track level
 
----
+Completes all signal connections
 
-## 8. Final Output and Routing Execution
+Ensures full compliance with DRC and design constraints
 
-When `run_routing` is executed, both global and detailed routing processes are performed.
+Global routing establishes the overall plan, while detailed routing refines and finalizes the layout.
 
-### Key Details:
+6. TritonRoute: Introduction and Capabilities
 
-- Routing strategy: Strategy 0 (iterative refinement)  
-- Initial DRC violations (e.g., 25,000) are progressively reduced to 0  
-- May take approximately 20 to 30 minutes, depending on design complexity  
-- Multiple iterations (e.g., 34) are performed to clean the layout  
+TritonRoute is an open-source detailed routing engine integrated into the OpenROAD flow and is typically executed using the run_routing command.
 
-The final routed design is output in DEF or GDS format, ready for signoff and fabrication.
+Key Capabilities:
 
----
+Routing Guide Compliance
+
+Follows routing guides generated in earlier stages
+
+Respects preferred routing directions for each metal layer
+
+Utilizes upper metal layers when non-preferred routing is required
+
+Inter-Guide Connectivity
+
+Divides the routing space into vertical panels
+
+Ensures legal and continuous routing between panels through proper bridging
+
+Layer-Aware Routing Strategy
+
+Routes even-numbered panels first, followed by odd-numbered panels
+
+Improves routing efficiency and reduces conflicts
+
+7. Optimization Using MILP
+
+TritonRoute applies Mixed Integer Linear Programming (MILP) to optimize routing between Access Point Clusters (APCs).
+
+Optimization Process:
+
+Evaluate the cost associated with each access point
+
+Build a Minimum Spanning Tree (MST)
+
+Select the lowest-cost routing paths
+
+This approach minimizes wire length and congestion while maintaining connectivity.
+
+8. Routing Execution and Final Output
+
+When the run_routing command is executed, both global and detailed routing are performed.
+
+Key Highlights:
+
+Uses an iterative refinement strategy (Strategy 0)
+
+Initially high DRC violations (e.g., ~25,000) are gradually reduced to zero
+
+The routing process may take around 20–30 minutes, depending on design complexity
+
+Multiple iterations (such as 30+ passes) are carried out to fully clean the layout
+
+The final, verified design is generated in DEF or GDS format, making it ready for signoff and fabrication.
 
 # Lab:
 
