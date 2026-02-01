@@ -297,7 +297,7 @@ report_timing
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(106).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(107).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(111).png)
-![image alt]{https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(112).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(112).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(113).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(114).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/c48eaded47dbfeaff8d0584d08f93297e3f5a48e/Day4/Screenshot%20(115).png)
