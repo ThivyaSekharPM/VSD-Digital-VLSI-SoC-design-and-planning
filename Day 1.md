@@ -30,3 +30,5 @@ We were also taught the complete RTL-to-GDSII design flow, which includes the fo
 Throughout this entire flow, various tools are employed, including Yosys for synthesis, ABC for technology mapping, IOPlacer for input/output placement, PDN for power distribution, RePlAce for global placement, TritonCTS for clock tree synthesis, and Magic for layout visualization and DRC checks.
 # Lab:
 Here in the first lab we though about the basics on how to run the OPENLANE what are the different files which would be required to us for the geration from the RTL to GDS II, we were being though about the PDK(Process Design Kits), about the lef files, def files, spef files and where would the results be present where would these all the information files such as the lef, def, spef would be present and how to run all of them and finally we were being taught how to calculate the total flop ratio after doing the synthesis part.
+
+https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/ac0e6800752270443f9fd5814815bb3fe05e0a33/Day1/Screenshot%20(22).png
