@@ -38,6 +38,10 @@ Here in the first lab we though about the basics on how to run the OPENLANE what
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(26).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(27).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(28).png)
+- Flop Ratio can be calculated from the above information:
+- Flip flop ratio = (No. of Dff/No. of Cells)*100
+- So, from the above two images No. of Dff=1613 and No.of Cells = 14876
+- So, flip flop ratio is (1613/14876)*100 = 10.843%
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(29).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(30).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day1/Screenshot%20(31).png)
