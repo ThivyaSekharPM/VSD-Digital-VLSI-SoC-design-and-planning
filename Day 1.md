@@ -1,5 +1,6 @@
 # Theory:
 In the theory session, we were first introduced to a sample QFN-48 package and discussed the various components present inside a packaged chip. The main components of a chip include:
+
 1.Pads: Pads are used to establish electrical connections between the integrated circuit (IC) and the external package. They enable the transmission of electrical signals into and out of the chip.
 
 2.Core: The core is the central part of the chip where all the digital logic is implemented. It contains essential components such as logic gates, multiplexers, and flip-flops that perform the processor’s functionality.
