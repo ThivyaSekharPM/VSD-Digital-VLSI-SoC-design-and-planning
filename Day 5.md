@@ -22,11 +22,11 @@ Adhere to Manhattan routing style, allowing only horizontal and vertical paths
 
 From a software perspective, routing involves computing an optimal path between points. In VLSI physical design, this translates into laying out metal interconnects on silicon to ensure reliable signal transmission. Lee’s Algorithm is especially suitable for grid-based routing scenarios commonly found in chip design.
 
-#2. Working Principle of Lee’s Algorithm
+## 2. Working Principle of Lee’s Algorithm
 
 Lee’s Algorithm operates on a grid-based representation of the routing area. It systematically explores all valid paths between a source and a destination to guarantee identification of the shortest route.
 
-#Step 1: Grid Setup
+### Step 1: Grid Setup
 
 The routing grid is initialized with the following cell types:
 
@@ -38,11 +38,11 @@ The routing grid is initialized with the following cell types:
 
 - Target: Endpoint of the route
 
-#Step 2: Wave Propagation
+### Step 2: Wave Propagation
 
 Starting from the source, the algorithm expands in all four cardinal directions—up, down, left, and right. Each expansion step increases the cost value, and this wave continues until the target is reached or no further expansion is possible.
 
-#Step 3: Path Backtracking
+### Step 3: Path Backtracking
 
 Once the target is encountered, the algorithm traces back to the source by following cells with decreasing cost values, forming the shortest valid path.
 
@@ -54,7 +54,7 @@ Important constraints include:
 
 - Diagonal paths and overlaps are not allowed
 
-#3. Design Rule Checking (DRC)
+## 3. Design Rule Checking (DRC)
 
 All routing must comply with fabrication rules defined by the foundry, collectively known as Design Rules.
 
@@ -78,7 +78,7 @@ Purpose of DRC:
 
 Any DRC violations identified after routing must be resolved before the design can proceed to fabrication.
 
-#4. Signal Shorting and Metal Layer Transitions
+## 4. Signal Shorting and Metal Layer Transitions
 
 Signal shorts are a common routing issue and can cause:
 
@@ -98,13 +98,11 @@ Mitigation Approach:
 
 Higher metal layers often require wider wires, which adds complexity but helps alleviate routing congestion.
 
-5. Stages of Routing in VLSI Design
+## 5. Stages of Routing in VLSI Design
 
 Routing is generally carried out in two main stages:
 
-Global Routing
-
-Also known as coarse or fast routing
+- Global Routing : Also known as coarse or fast routing
 
 Divides the chip into larger routing regions
 
