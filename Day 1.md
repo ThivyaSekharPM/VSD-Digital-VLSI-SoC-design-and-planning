@@ -31,4 +31,4 @@ Throughout this entire flow, various tools are employed, including Yosys for syn
 # Lab:
 Here in the first lab we though about the basics on how to run the OPENLANE what are the different files which would be required to us for the geration from the RTL to GDS II, we were being though about the PDK(Process Design Kits), about the lef files, def files, spef files and where would the results be present where would these all the information files such as the lef, def, spef would be present and how to run all of them and finally we were being taught how to calculate the total flop ratio after doing the synthesis part.
 
-!images(https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/tree/653335003bc9d80e2636f02e0d828a6cd70b1bbf/Day1)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/aee2d2f6ca888e33e317ac4cfb985c3e76271c00/Day1/Screenshot%20(22).png)
