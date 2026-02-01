@@ -102,75 +102,76 @@ Higher metal layers often require wider wires, which adds complexity but helps a
 
 Routing is generally carried out in two main stages:
 
-- Global Routing : Also known as coarse or fast routing
+### Global Routing 
+- Also known as coarse or fast routing
 
-Divides the chip into larger routing regions
+- Divides the chip into larger routing regions
 
-Defines an initial routing plan and identifies available routing channels
+- Defines an initial routing plan and identifies available routing channels
 
-Detailed Routing
+### Detailed Routing
 
-Performs precise routing at the track level
+- Performs precise routing at the track level
 
-Completes all signal connections
+- Completes all signal connections
 
-Ensures full compliance with DRC and design constraints
+- Ensures full compliance with DRC and design constraints
 
 Global routing establishes the overall plan, while detailed routing refines and finalizes the layout.
 
-6. TritonRoute: Introduction and Capabilities
+## 6. TritonRoute: Introduction and Capabilities
 
 TritonRoute is an open-source detailed routing engine integrated into the OpenROAD flow and is typically executed using the run_routing command.
 
 Key Capabilities:
 
-Routing Guide Compliance
+- Routing Guide Compliance
 
-Follows routing guides generated in earlier stages
+- Follows routing guides generated in earlier stages
 
-Respects preferred routing directions for each metal layer
+- Respects preferred routing directions for each metal layer
 
-Utilizes upper metal layers when non-preferred routing is required
+- Utilizes upper metal layers when non-preferred routing is required
 
-Inter-Guide Connectivity
+- Inter-Guide Connectivity
 
-Divides the routing space into vertical panels
+- Divides the routing space into vertical panels
 
-Ensures legal and continuous routing between panels through proper bridging
+- Ensures legal and continuous routing between panels through proper bridging
 
-Layer-Aware Routing Strategy
+- Layer-Aware Routing Strategy
 
-Routes even-numbered panels first, followed by odd-numbered panels
+- Routes even-numbered panels first, followed by odd-numbered panels
 
-Improves routing efficiency and reduces conflicts
+- Improves routing efficiency and reduces conflicts
 
-7. Optimization Using MILP
+## 7. Optimization Using MILP
 
 TritonRoute applies Mixed Integer Linear Programming (MILP) to optimize routing between Access Point Clusters (APCs).
 
-Optimization Process:
+### Optimization Process:
 
-Evaluate the cost associated with each access point
+- Evaluate the cost associated with each access point
 
-Build a Minimum Spanning Tree (MST)
+- Build a Minimum Spanning Tree (MST)
 
-Select the lowest-cost routing paths
+- Select the lowest-cost routing paths
 
-This approach minimizes wire length and congestion while maintaining connectivity.
+- This approach minimizes wire length and congestion while maintaining connectivity.
 
-8. Routing Execution and Final Output
+## 8. Routing Execution and Final Output
 
 When the run_routing command is executed, both global and detailed routing are performed.
 
 Key Highlights:
 
-Uses an iterative refinement strategy (Strategy 0)
+- Uses an iterative refinement strategy (Strategy 0)
 
-Initially high DRC violations (e.g., ~25,000) are gradually reduced to zero
+- Initially high DRC violations (e.g., ~25,000) are gradually reduced to zero
 
-The routing process may take around 20–30 minutes, depending on design complexity
+- The routing process may take around 20–30 minutes, depending on design complexity
 
-Multiple iterations (such as 30+ passes) are carried out to fully clean the layout
+- Multiple iterations (such as 30+ passes) are carried out to fully clean the layout
 
 The final, verified design is generated in DEF or GDS format, making it ready for signoff and fabrication.
 
