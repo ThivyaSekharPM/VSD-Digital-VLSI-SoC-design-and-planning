@@ -112,3 +112,71 @@ Copy the clone URL from the repository and run the following command in the Open
 git clone https://github.com/nickson-jose/vsdstdcelldesign
 
 - Then we have to open the mag file of the inverter which is being present as we are going to work on that inverted file only which is a .mag file and we are going to open it with the help of the magic tool and later calculate some of the metrics which is being done below:
+
+![image alt]{https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(49).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(50).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(51).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(52).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(53).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(54).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(55).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(56).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(57).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(58).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(59).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(60).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(61).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(62).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(63).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(64).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(65).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(66).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(67).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(67).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(68).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(69).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(70).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(72).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(73).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(74).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(75).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(76).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(77).png)
+- Rise Time : 2.23907e-9 - 2.17985e-9 = 0.05922ns
+- Fall time : 8.09175e-9 - 8.05043e-9 = 0.04132ns
+- Rise Delay : 2.20636e-9 - 2.14909e-9 = 0.05727ns
+- Fall Delay : 4.07532e-9 - 4.05e-9 = 0.2532
+# Introduction to Magic Tool Options and DRC Rules by Tim Edwards
+
+This document introduces the use of the **Magic VLSI Layout Tool**, focusing on Design Rule Checking (DRC) and related tool options as explained by **Tim Edwards**.
+
+## Reference Links
+
+- **Skywater PDK Design Rules:**  
+  [Skywater Design Rules Documentation](https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html)
+
+- **Official Skywater GitHub Repository:**  
+  [github.com/google/skywater-pdk](https://github.com/google/skywater-pdk)
+
+- **Magic VLSI Layout Tool (Tutorial & Docs):**  
+  [opencircuitdesign.com/magic](https://opencircuitdesign.com/magic)
+
+  - Recommended Sections:  
+    - **Section 2:** Introduction to Layout  
+    - **Section 6:** Design Rule Checking and Tool Configuration
+
+## Lab Preparation
+
+To begin working with the lab:
+
+### Download Lab Files
+
+Use the following command in your terminal:
+
+- wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+- tar -xvzf drc_tests.tgz
+
+
+
+
+
