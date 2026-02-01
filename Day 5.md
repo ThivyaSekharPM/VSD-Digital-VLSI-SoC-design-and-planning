@@ -1,6 +1,6 @@
-#Theory
+# Theory
 
-#1. Overview of Maze Routing and Lee’s Algorithm
+## 1. Overview of Maze Routing and Lee’s Algorithm
 
 Routing refers to the process of creating the most efficient physical connections between components in an integrated circuit, such as clocks, flip-flops, and standard cells.
 
