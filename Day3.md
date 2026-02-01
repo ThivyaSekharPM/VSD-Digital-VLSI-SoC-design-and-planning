@@ -140,7 +140,6 @@ git clone https://github.com/nickson-jose/vsdstdcelldesign
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(73).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(74).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(75).png)
-![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(76).png)
 ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(77).png)
 - Rise Time : 2.23907e-9 - 2.17985e-9 = 0.05922ns
 - Fall time : 8.09175e-9 - 8.05043e-9 = 0.04132ns
