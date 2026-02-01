@@ -21,4 +21,19 @@ Here we were taught how to make a good floorplan and also we were taught about t
 
 # Lab:
 - Here in this lab we have performed the floorplan and also  the placment process and we have used the magic tools to check how our chip would be looking and all the data is being stored in the runs folder so when we run our floorpland and placement using the run_floorplan and run_placement they are being stored in the runs folder of the picorv32a. So, here is the below all the steps which are being done and performed.
-- ![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day2/Screenshot%20(33).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/32aa7d2a3b12c964e50645d8ac9d4bcfe526d103/Day2/Screenshot%20(33).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(35).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(36).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(37).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(38).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(39).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(40).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(41).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(42).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(43).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(44).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(45).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(46).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(47).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/686122477ed908255dbac156228e3225bc3b836d/Day2/Screenshot%20(48).png)
+
