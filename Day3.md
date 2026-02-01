@@ -176,6 +176,32 @@ Use the following command in your terminal:
 - wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
 - tar -xvzf drc_tests.tgz
 
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(78).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(79).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(80).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(81).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(82).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(83).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(84).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(85).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(86).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(87).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(88).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(89).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(90).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(91).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(92).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(93).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(94).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(95).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(96).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(97).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(98).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(99).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(100).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(101).png)
+![image alt](https://github.com/ThivyaSekharPM/VSD-Digital-VLSI-SoC-design-and-planning/blob/de6d1479dc6cd23e641e8f22343abf32a2ae0e40/Day3/Screenshot%20(102).png)
+
 
 
 
